@@ -22,6 +22,10 @@
   box-shadow: 2px 2px 2px rgba(78, 78, 78, 0.6);
 }
 
+.definition {
+  display: none;
+}
+
 /* Responsive Styles */
 @media screen and (max-width: 995px) {
   .card {
