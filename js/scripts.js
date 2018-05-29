@@ -1,3 +1,5 @@
 $(document).ready(function() {
-  console.log("working");
-})
+  $(".card").click(function() {
+    $(this).children("p").fadeToggle();
+  });
+});
